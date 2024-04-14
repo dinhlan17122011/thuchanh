@@ -1,10 +1,9 @@
 import React from 'react'
-import {combo1} from './Combo1.png'
-import {combo2} from './Combo2.png'
 import Type from '../../components/TypeProduct/Type'
 import { WrapperTypeProduct } from './Giaodien'
-import Slick from "slick-carousel/slick/slick.css";
-import SlickCss from "slick-carousel/slick/slick-theme.css";
+import comboOne  from '../Home/Combo1.png'
+import comboTwo  from '../Home/Combo2.png'
+import Sidle from '../../components/Slder/Sidle'
 
 
 const home = () => {
@@ -18,7 +17,7 @@ const home = () => {
         )
       })}
       </WrapperTypeProduct>
-      <Slick arrImages={[combo1,combo2]}/>
+      <Sidle arrImg={[comboOne,comboTwo] }/>
     </div>
   )
 }
