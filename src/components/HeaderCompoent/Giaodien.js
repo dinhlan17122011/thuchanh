@@ -18,3 +18,7 @@ aligh-items:center;
 color:#fff;
 gap:10px;
 `
+export const WrappreHeaderSporet=styled.samp`
+font-size: 20px;
+color:#fff;
+`

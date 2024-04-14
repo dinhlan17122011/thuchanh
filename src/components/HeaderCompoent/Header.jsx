@@ -1,7 +1,8 @@
 import React from 'react'
-import {UserOutlined,CaretDownOutlined} from '@ant-design/icons';
+import ButttonInputSearch from '../ButtonInput/ButttonInputSearch'
+import {UserOutlined,CaretDownOutlined,ShoppingCartOutlined} from '@ant-design/icons';
 import {Row,Col,Input, Space} from 'antd'
-import { WrappreHeader, WrappreHeaderAccout, WrappreText } from './Giaodien'
+import { WrappreHeader, WrappreHeaderAccout, WrappreHeaderSporet, WrappreText } from './Giaodien'
 const { Search } = Input;
 const onSearch = (value, _e, info) => console.log(info?.source, value);
 
@@ -12,22 +13,32 @@ const Header = () => {
       <WrappreText>BanhNgot.com</WrappreText>
     </Col>
     <Col span={10}>
-      <Space>
-      <Search placeholder="input search text" 
-      allowClear 
-      onSearch={onSearch} 
-      style={{ width: 400 }} />
-      </Space>
+    <ButttonInputSearch
+              size="large"
+              bordered={false}
+              textbutton="Tìm kiếm"
+              placeholder="Tìm kiếm bành"
+              onChange={onSearch}
+              backgroundColorButton="#5a20c1"
+            />
     </Col>
-    <Col span={6}>
-    <UserOutlined style={{fontSize:'40px'}} />
-    <WrappreHeaderAccout>
-      <spam>Đăng nhập/Đăng Kí</spam>
-      <div>
-        <spam>Tài Khoản</spam>
-        <CaretDownOutlined />
-      </div>
-    </WrappreHeaderAccout>
+    <Col span={6} style={{display:'flex' }}>
+      <WrappreHeaderAccout>
+        <UserOutlined style={{fontSize:'40px'}} />
+        <div>
+          <spam>Đăng nhập/Đăng Kí</spam>
+          <div>
+            <spam>Tài Khoản</spam>
+            <CaretDownOutlined />
+          </div>
+        </div>
+      </WrappreHeaderAccout>
+      <WrappreHeaderSporet>
+        <ShoppingCartOutlined />
+        <div>
+          <samp>Giỏ Hành</samp>
+        </div>
+      </WrappreHeaderSporet>
     </Col>
   </WrappreHeader>
 

@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Giới thiệu học viên thực hành
+Họ và tên : Đinh Văn Hoàng Lân
+Ngày sinh : 17/12/2011 (13 tuổi)
+Cung : Nhân Mã
+Tình cách : vui vẻ, thích vui chơi
+Sở thích : Viết code và học bài
+Ghét : những đứa OCD
+Màu sắc yêu thích: Mầu xanh là cây
+Môn học yêu thích: Toán và Tin Học
+Ước mơ : Thành lập trình viên (về mảng web,game và app)
+## Hệ mày học tập
+Tên mày : DESKTOP-USMMPAA (DELL màu đen)
+CPU: 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz   3.00 GHz
+RAM: 8,00 GB (7,73 GB usable)
+Thể lọa system : 64-bit operating system, x64-based processor
+Windows 11 Home Single Language
+Phiên bản: 22H2
+OS build	22621.3447
+## App học tập
+Tất cả phần mến lập trình của một người bình thường như tôi😶‍🌫️
+-Visual Studio 2019(phục vụ Unity cho việc làm game và C#)
+-Visual Studio Code (Phiên bản 2024)
+-Unity hub + Unity Editing (Làm game)
+-LibreSprite (Vẽ pixle)
+-Ổ F: (Lưu thành quả)
+-Ổ E:(Ổ phụ)
+### Sản phẩm
+HTML,CSS(Học) : không public
+HTML,CSS(Thực Hành) :không public
+JS(Học):không public
+JS(Thực Hành):không public
+NodeJS,MonoogDB:không public
+ReacJS:không public
+Thực Hành HTML,CSS,JS,NodeJS,MonoogDB,ReactJS: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Sản phẩm khác củng học viên 
+1.Chương trình mà người dùng nhập từ 1--> 100 . 
+Nếu người dùng nhập số không trong khoảng 1 --> 100 thì bào là "xin loi ....... khong trong khoang 1 --> 100" , còn nhập đúng số trong khoáng 1 --> 100 thí báo rằng "so ban nhap la .......".
+Chương trình viết bằng ngôn ngữ C# trong phấn mến Visual Stusio 2019
+2.Chuyển từ độ C sang F và K bằng ngôn ngữ C# trong phần mến Visual Studio 2019
+3.Tính lương của nhân vật công ty cơ bản bằng ngôn ngử C# trên phần mền Visual Studio 2019
+4.Trò chơi bắn ruồi Unity 
+5.Web bán hành (Thực hành)
+6.Hệ thống bán bành Thanh Hương Bakery (Sản phẩm thực tế Coming 2024)
+...
+### Link học viên
+Mail: dinhlan17122011@gmail.com
+Facebook : Dinh Hehe (https://www.facebook.com/profile.php?id=100095662472605)
+Tiktop : @dinhlan1712 (https://www.tiktok.com/@dinhlan1712)
+Github : dinhlan17122011 (https://github.com/dinhlan17122011)
