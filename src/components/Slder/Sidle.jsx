@@ -8,7 +8,7 @@ const Sidle = ({arrImg}) => {
         speed: 1,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay:false,
+        autoplay:true,
         autoplaySpeed:1000,
       };
   return (

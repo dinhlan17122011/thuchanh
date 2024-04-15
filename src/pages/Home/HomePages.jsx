@@ -9,7 +9,7 @@ import Sidle from '../../components/Slder/Sidle'
 const home = () => {
   const arr = ['Bành ngọt' , 'Bành gato' , 'Bành mận' ]
   return (
-    <div style={{padding:'0 120px'}}>
+    <div style={{padding:'0 100px'}}>
       <WrapperTypeProduct>
       {arr.map((item)=>{
         return (
