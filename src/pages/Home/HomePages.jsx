@@ -1,8 +1,8 @@
 import React from 'react'
 import Type from '../../components/TypeProduct/Type'
 import { WrapperTypeProduct } from './Giaodien'
-import comboOne  from '../Home/Combo1.png'
-import comboTwo  from '../Home/Combo2.png'
+import comboOne  from '../Home/Img/Combo1.png'
+import comboTwo  from '../Home/Img/Combo2.png'
 import Sidle from '../../components/Slder/Sidle'
 
 

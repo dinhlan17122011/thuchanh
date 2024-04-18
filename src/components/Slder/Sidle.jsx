@@ -9,13 +9,13 @@ const Sidle = ({arrImg}) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay:true,
-        autoplaySpeed:1000,
+        autoplaySpeed:2000,
       };
   return (
-    <Slider settings={settings}>
+    <Slider {...settings}>
         {arrImg.map((img)=>{
             return (
-                <Image src={img} alt='' freview={false} />
+                <Image src={img} alt='' freview={true} style={{width:'100%'}} />
             )
         })}
     </Slider>
