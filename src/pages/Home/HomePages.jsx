@@ -17,7 +17,7 @@ const home = () => {
         )
       })}
       </WrapperTypeProduct>
-      <Sidle arrImg={[comboOne,comboTwo] }/>
+      <Sidle arrimg={[comboOne,comboTwo] }/>
     </div>
   )
 }

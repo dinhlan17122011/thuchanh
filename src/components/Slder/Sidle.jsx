@@ -1,25 +1,26 @@
+import { Image } from 'antd';
 import React from 'react'
-import Slider from "react-slick";
-import { Image } from 'antd'
-const Sidle = ({arrImg}) => {
+import { WrapperSliderStyle } from './style';
+
+const Slider = ({ arrimg }) => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 1,
+        speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay:true,
-        autoplaySpeed:2000,
-      };
-  return (
-    <Slider {...settings}>
-        {arrImg.map((img)=>{
-            return (
-                <Image src={img} alt='' freview={true} style={{width:'100%'}} />
-            )
-        })}
-    </Slider>
-  )
+        slidesToScroll: 1, 
+        autoplay: true,
+        autoplaySpeed: 1000
+    };
+    return (
+        <WrapperSliderStyle {...settings}>
+            {arrimg.map((image) => {
+                return (
+                    <Image key={image} src={image} alt="slider" preview={false} />
+                )
+            })}
+        </WrapperSliderStyle>
+    )
 }
 
-export default Sidle
+export default Slider
