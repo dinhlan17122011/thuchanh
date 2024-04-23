@@ -1,8 +1,9 @@
 import React from 'react'
 import Type from '../../components/TypeProduct/Type'
 import { WrapperTypeProduct } from './Giaodien'
-import comboOne  from '../Home/Img/Combo1.png'
-import comboTwo  from '../Home/Img/Combo2.png'
+import Anh1  from '../Home/Img/Screenshot 2024-04-22 211615.png'
+import Anh2  from '../Home/Img/Screenshot 2024-03-31 115825.png'
+import Anh3  from '../Home/Img/Screenshot 2024-03-22 193525.png'
 import Sidle from '../../components/Slder/Sidle'
 
 
@@ -17,7 +18,7 @@ const home = () => {
         )
       })}
       </WrapperTypeProduct>
-      <Sidle arrimg={[comboOne,comboTwo] }/>
+      <Sidle arrimg={[Anh1,Anh2,Anh3] }/>
     </div>
   )
 }
