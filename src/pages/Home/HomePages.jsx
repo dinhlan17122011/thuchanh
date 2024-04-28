@@ -5,6 +5,8 @@ import Anh1  from '../Home/Img/Screenshot 2024-04-22 211615.png'
 import Anh2  from '../Home/Img/Screenshot 2024-03-31 115825.png'
 import Anh3  from '../Home/Img/Screenshot 2024-03-22 193525.png'
 import Sidle from '../../components/Slder/Sidle'
+import CardComponents from '../../components/Card/CardComponents'
+import NavbarComponets from '../../components/Navbar/NavbarComponets'
 
 
 const home = () => {
@@ -19,6 +21,8 @@ const home = () => {
       })}
       </WrapperTypeProduct>
       <Sidle arrimg={[Anh1,Anh2,Anh3] }/>
+      <CardComponents />
+      <NavbarComponets />
     </div>
   )
 }
