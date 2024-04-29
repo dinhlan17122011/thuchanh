@@ -1,5 +1,6 @@
 import HomePages from'../pages/Home/HomePages'
 import No from '../pages/No/No'
+import Tyle from '../pages/Sampham/sampham'
 import OrderPages from'../pages/Order/OrderPages'
 export const routes =[
     {
@@ -9,6 +10,10 @@ export const routes =[
     {
         path:'/khac',
         page:OrderPages
+    },
+    {
+        path:'/sampham',
+        page:Tyle
     },
     {
         path:'*',

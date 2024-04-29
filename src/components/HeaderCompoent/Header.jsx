@@ -1,7 +1,7 @@
 import React from 'react'
 import ButttonInputSearch from '../ButtonInput/ButttonInputSearch'
 import {UserOutlined,CaretDownOutlined,ShoppingCartOutlined} from '@ant-design/icons';
-import {Row,Col,Input, Space} from 'antd'
+import {Row,Col,Input, Space, Badge} from 'antd'
 import { WrappreHeader, WrappreHeaderAccout, WrappreHeaderSporet, WrappreText } from './Giaodien'
 const { Search } = Input;
 const onSearch = (value, _e, info) => console.log(info?.source, value);
@@ -34,7 +34,9 @@ const Header = () => {
         </div>
       </WrappreHeaderAccout>
       <WrappreHeaderSporet>
-        <ShoppingCartOutlined />
+        <Badge count={4} size='small' >
+        <ShoppingCartOutlined style={{fontSize:'30px' , color:'#fff',gap:'10px'}} />
+        </Badge>
         <div>
           <samp>Giỏ Hành</samp>
         </div>
